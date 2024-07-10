@@ -1,5 +1,4 @@
 function scuberGreetingForFeet(distance){
-  // Write your code here!
   if (distance <= 400) {
     return 'This one is on me!';
   } else if (distance > 400 && distance <= 2000) {
@@ -13,7 +12,6 @@ function scuberGreetingForFeet(distance){
 
 
 function ternaryCheckCity(city){
-  // Write your code here!
   return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
 
@@ -21,7 +19,6 @@ function ternaryCheckCity(city){
 
 
 function switchOnCharmFromTip(tip){
-  // Write your code here!
    switch (tip) {
     case 'generous':
       return 'Thank you so much.';
